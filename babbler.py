@@ -9,9 +9,9 @@ import nltk
 import sys, os
 import random, time
 
-# N_GRAM = 3 takes 
-# N_GRAM = 4 takes 44 seconds to train.
-N_GRAM = 4
+# N_GRAM = 3 takes 22 seconds to train.
+# N_GRAM = 4 takes 50 seconds to train.
+N_GRAM = 3
 SENT_LEN = 100
 
 words = ["The", "In", "O", "My", "When", "If", "Jesus"]
